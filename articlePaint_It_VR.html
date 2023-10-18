@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Game-design, 3D Modeling,UVs Unwrap & texturing done during an internship at Payoff-Technologies. Paint It VR is an asymetric party-game using virtual reality headset.">
+    <meta name="author" content="Lucas Alexandre">
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="canonical" href="http://lucasalexandre.pe.hu/articlePaint_It_VR.html" />
+
+    <meta name="keywords" content="Lucas Alexandre Level-Design Game-Design 3D modeling Unity Paint It VR" />
+    <!--og (rÃ©seaux sociaux) -->
+    <meta property="og:title" content="Lucas Alexandre's Portfolio" />
+        <meta property="og:site_name" content="My resume and works."/>
+        <meta property="og:description" content="What I've done on Paint It VR"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://lucasalexandre.pe.hu/articlePaint_It_VR.html" />
+    <meta property="og:image" content="logo.ico" />
+    <meta property="og:image:type" content="image/ico" />
+
+    <meta property="og:locale" content="en_EN" />
+    <!-- /og (rÃ©seaux sociaux) -->
+    <title>Lucas Alexandre 3D Game Design & Graphics for Paint It VR</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+   <link rel="stylesheet/less" href="less/main.less" type="text/css">
+    <link rel="stylesheet/less" href="less/article.less" type="text/css">
+       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/less.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+        <video autoplay loop id="bgvid"> 
+        <source src="vid/bg.mp4" type="video/mp4" />
+        <source src="vid/bg.webm" type="video/webm" /> 
+        <source src="vid/bg.ogv" type="video/ogv" /> 
+        </video>    
+        <!--/ Fond AnimÃ© du site-->
+
+        <!--Google analytics-->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-88802075-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+        <!--/Google analytics-->
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html#portfolio">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        
+            <div class="titre">
+                <h1 itemprop="name"><strong>Game Design & Graphics</strong></h1>
+                <hr>
+
+                
+                    <img src="img/portfolio/PIVR(2).jpg" class="img-responsive center-block shadow" alt="Screenshot on Paint It VR">
+                      <div class="legende">Screenshot on Paint It VR (non-contractual)</div>
+
+                       <section class="article">
+                        <div class="overview text-justify col-lg-12 col-lg-offset-0">
+                          <ul class="col-lg-3 col-md-12">Project Name<li>Paint It VR</li></ul><ul class="col-lg-3 col-md-12">Platform<li>PC (VR App)</li></ul><ul class="col-lg-3 col-md-12">Role<li>Designer</li></ul><ul class="col-lg-3 col-md-12">Date<li>Apr. 2018 - Jun. 2018</li></ul>
+                        </div>
+
+                        <div class="col-lg-12 col-md- text-justify"><h2>Asymetrical VR game</h2><p>"Paint it VR" is an Unity3d asymmetrical party game in which two teams of several players compete. Every turn, each player equips the VR helmet and draws in the space around him to make the other players guess a word or an expression. They can see in real time what draws the player equipped with the helmet through the retransmission of the game environment from multiple angles.</p>
+                          <h2>Tasks Overview</h2>
+                          <div class="tasks">
+                            <p> GD field: </p><ul>
+                       <li>Game Design Document of the prototype</li>
+                       <li>Flow screen menu chart VR and screen "sofa"</li>
+                       <li>List of signs and feedbacks</li>
+                       <li>List of words to guess, by category and difficulty</li>
+                       <li>GD proposal presentation (pre-production)</li>
+                       <li>Game Offer presentation (1st version)</li>
+                       </ul></br>
+                        <p>Graphics field:</p>
+                       <ul>
+                       <li>3D Modeling & UV Unwrap (3ds Max)</li>
+                       <li>Texturing (Substance Painter & Photoshop)</li>
+                       <li>Fx</li>
+                       <li>Integration (Unity3d)</li>
+                       </ul>
+                       </div>
+                       <div class="embed-responsive embed-responsive-16by9"><iframe class=" center-block embed-responsive-item" src="https://www.youtube.com/embed/4mgkllDI9EY" allow="encrypted-media" allowfullscreen></iframe></div><br>
+                       </section></br></br>
+                        
+                
+                            </div>
+                        </div>
+                        </br></br>
+                        <a href="index.html#portfolio" title="Back to home" class="btn btn-primary btn-xl page-scroll">  <u>H</u>ome</a>
+                        </br></br>
+
+
+    </header>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:o9RMK9qKs7
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u904925934/public_html/projets/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE o9RMK9qKs7:PWPROTECTID
+

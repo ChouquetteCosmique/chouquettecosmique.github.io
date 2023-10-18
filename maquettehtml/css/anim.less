@@ -1,0 +1,33 @@
+/*ANIMATIONS*/
+.animLeft{
+    animation: slideLeft 1s;
+}
+.animRight{
+    animation: slideRight 1s;
+}
+.animBottom{
+    animation: slideBottom 1s;
+}
+.animTop{
+    animation: slideTop 1s;
+}
+.visible{
+    opacity: 1;
+}
+
+@-webkit-keyframes slideLeft {
+           0% { -webkit-transform: translateX(-100%);opacity: 0; }
+        100% { -webkit-transform: translateX(0);}
+    }
+@-webkit-keyframes slideRight {
+           0% { -webkit-transform: translateX(100%);opacity: 0; }
+        100% { -webkit-transform: translateX(0);}
+    }
+@-webkit-keyframes slideBottom {
+           0% { -webkit-transform: translateY(-100%);opacity: 0; }
+        100% { -webkit-transform: translateY(0);}
+    }
+@-webkit-keyframes slideTop {
+           0% { -webkit-transform: translateY(100%);opacity: 0; }
+        100% { -webkit-transform: translateY(0);}
+    }

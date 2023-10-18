@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="GD, Graphics, Integration, Optimisation, done for MR Project during an internship at Actimage Consulting Paris. Hol'Autisme - Pop Balloons is an research and development Mixed Reality application using HoloLens headset.">
+    <meta name="author" content="Lucas Alexandre">
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="canonical" href="http://lucasalexandre.pe.hu/articleHolautisme.html" />
+
+    <meta name="keywords" content="Lucas Alexandre, Graphics, Integration, Optimisation, Unity, Shader" />
+    <!--og (rÃ©seaux sociaux) -->
+    <meta property="og:title" content="Lucas Alexandre's Portfolio" />
+        <meta property="og:site_name" content="My resume and works."/>
+        <meta property="og:description" content="What I've done with LWRP render pipeline and some shaders"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://lucasalexandre.pe.hu/articleShaderLWRP.html" />
+    <meta property="og:image" content="logo.ico" />
+    <meta property="og:image:type" content="image/ico" />
+
+    <meta property="og:locale" content="en_EN" />
+    <!-- /og (rÃ©seaux sociaux) -->
+    <title>Lucas Alexandre Unity, Graphics for Unity's LWRP</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+   <link rel="stylesheet/less" href="less/main.less" type="text/css">
+    <link rel="stylesheet/less" href="less/article.less" type="text/css">
+       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/less.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+        <video autoplay loop id="bgvid"> 
+        <source src="vid/bg.mp4" type="video/mp4" />
+        <source src="vid/bg.webm" type="video/webm" /> 
+        <source src="vid/bg.ogv" type="video/ogv" /> 
+        </video>    
+        <!--/ Fond AnimÃ© du site-->
+
+        <!--Google analytics-->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-88802075-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+        <!--/Google analytics-->
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html#portfolio">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        
+            <div class="titre">
+                <h1 itemprop="name"><strong>Unity & Graphics</strong></h1>
+                <hr>
+
+                <p>
+                    <img src="img/portfolio/LWRPShader(2).jpg" class="img-responsive center-block shadow" alt="Screenshot on Paint It VR">
+                      <div class="legende">First use of Unity LWRP and Shader Graph</div>
+
+                       <section class="article"><div class="col-lg-12 col-md- text-justify"><p>I played with the Unity's Shader Graph, which allows me to create shader without a single line of code. The scene is also running with Unity's Light Weight Render Pipeline.</p><p> Graphics tasks: </p><ul>
+                        <li>3D Modeling & UV Unwrap (3ds Max)</li>
+                       <li>Texturing (Substance Painter & Photoshop)</li>
+                       <li>Integration (Unity3d)</li>
+                       <li>Shaders using Shader Graph.</li>
+                       </ul>
+                       </ul><br>
+                       <img src="img/portfolio/LWRP(2).jpg" class="img-responsive center-block shadow" alt="Screenshoot">
+                       </p>
+                       <div class="embed-responsive embed-responsive-16by9"><iframe class=" center-block embed-responsive-item" src="https://www.youtube.com/embed/HVb_vZkGZSE" allow="encrypted-media" allowfullscreen></iframe></div><br>
+                       </section></br></br>
+                        
+                
+                            </div>
+                        </div>
+                        </br></br>
+                        <a href="index.html#portfolio" title="Back to home" class="btn btn-primary btn-xl page-scroll">  <u>H</u>ome</a>
+                        </br></br>
+
+
+    </header>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
